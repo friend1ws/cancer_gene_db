@@ -29,7 +29,7 @@ with open("YeEtAl2016/YeEtAl2016.proc.txt", 'r') as hin:
 genes = list(set(gene2lawrence.keys() + gene2cgc.keys() + gene2vogelstein.keys() + gene2ye.keys()))
 
 
-hout = open("cancer_gene.txt", 'w')
+hout = open("CancerGeneSummary/CancerGeneSummary.proc.txt", 'w')
 for gene in sorted(genes):
     lawrence = gene2lawrence[gene] if gene in gene2lawrence else "---"
     cgc = gene2cgc[gene] if gene in gene2cgc else "---"

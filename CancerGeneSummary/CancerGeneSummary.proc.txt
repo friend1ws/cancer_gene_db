@@ -1,0 +1,984 @@
+** The number of samples with any subtle mutation (single base substitution, insertion or deletion <100 bp), in the COSMIC database.	---	---		---
+*Genes were classified as Oncogenes if they had an  Oncogene Score >20% and classified as a Tumor Suppressor Gene (TSG) if the TSG Score was >20% (the 20/20 rule).  The Oncogene  Score was defined as the number of clustered mutations (i.e., missense mutations at the same amino acid or identical in-frame insertions or deletions) divided by the total number of mutations.  The TSG Score was defined as the number of truncating mutations divided by the total number of mutations.   Truncating mutations included nonsense mutations, insertions or deletions that alter the reading frame, splice-site mutations, or mutations at the normal stop codon predicted to result in a longer protein.   When a gene had an oncogene score >20% and a TSG Score >5%, it was classified as a TSG because well-studied oncogenes rarely harbor stop codons.     The major data source for this classification was the COSMIC database (www.sanger.ac.uk/genetics/CGP/cosmic/).  To be classified as an oncogene, there had to be >10 clustered mutations in this database.  To be classified as a tumor suppressor gene, there had had to be at least 7 inactivating mutations recorded in this database.     In those cases in which  7  to 20 inactivating mutations  were recorded in the COSMIC database, manual curation was performed.  This curation was used to identify other examples of mutations not yet recorded in the COSMIC database and to exclude the most common artifacts encountered in next-generation sequencing, such as mapping errors and high mutation frequencies  observed in normal tissues.   Genes with mutations occurring predominantly in tumors with very high rates of mutation, such as in mismatch-repair deficient tumors or melanomas, were excluded.  As more individual tumors are sequenced in the future, the 20/20 rule can be improved by (i)  considering mutations only in particular tumor types, rather than in all tumor types combined (as done here); (ii) requiring a higher number (e.g., 15) of clustered or inactivating mutations as a threshold for inclusion; and (iii) for genes with thousands of recorded mutations, choose a random subset to calculate the Oncogene Score (if enough tumors are sequenced, all mutations will appear to be clustered)	---	---		---
+ABCB1	---	---	---	CG
+ABCB11	---	---	---	CG
+ABCC2	---	---	---	CG
+ABCC4	---	---	---	CG
+ABI1	---	T	---	---
+ABL1	---	T, Mis	Oncogene	CG
+ABL2	---	T	---	CG
+ACKR3	---	T	---	---
+ACO1	PANCAN;MEL	---	---	CG
+ACSL3	---	T	---	---
+ACSL6	---	T	---	---
+ACVR1	---	Mis	---	---
+ACVR1B	PANCAN;BRCA;CRC	---	TSG	CG
+ACVR2A	---	---	---	CG
+ACVR2B	PANCAN	---	---	CG
+ADNP	PANCAN;UCEC	---	---	CG
+AFF1	---	T	---	---
+AFF3	---	T	---	---
+AFF4	---	T	---	---
+AJUBA	PANCAN;HNSC	---	---	CG
+AKAP9	---	T	---	---
+AKT1	PANCAN;BRCA;UCEC	Mis	Oncogene	CG
+AKT2	---	A	---	CG
+AKT3	---	---	---	CG
+ALDH2	---	T	---	---
+ALK	PANCAN;NB	T, Mis, A	Oncogene	CG
+ALKBH6	PANCAN;UCEC	---	---	CG
+ALOX12B	---	---	---	CG
+ALPK2	PANCAN;MEL	---	---	CG
+AMER1	---	F, D, N, Mis	---	CG
+ANK3	PANCAN;UCEC;MEL	---	---	---
+APC	PANCAN;CRC;LUAD	D, Mis, N, F, S	TSG	CG
+APCDD1	---	---	---	CG
+APITD1	---	---	---	CG
+APOL2	PANCAN	---	---	CG
+AR	---	---	Oncogene	CG
+ARAF	---	---	---	CG
+ARFRP1	---	---	---	CG
+ARHGAP26	---	T, F, S	---	---
+ARHGAP35	PANCAN;UCEC;HNSC;KIRC;LUAD;LUSC	---	---	CG
+ARHGEF12	---	T	---	---
+ARID1A	PANCAN;BLCA;BRCA;CRC;UCEC;ESO;KIRC;LUAD;LUSC	Mis, N, F, S, D, T	TSG	CG
+ARID1B	---	Mis, F, N, O	TSG	CG
+ARID2	PANCAN;CRC;HNSC;LUAD;MEL	N, S, F	TSG	CG
+ARID5B	PANCAN;UCEC	---	---	CG
+ARL11	---	---	---	CG
+ARNT	---	T	---	---
+ASPSCR1	---	T	---	---
+ASXL1	PANCAN;LAML;HNSC;LUSC	F, N, Mis	TSG	CG
+ASXL2	PANCAN	---	---	CG
+ASXL3	---	---	---	CG
+ATF1	---	T	---	---
+ATIC	---	T	---	---
+ATM	PANCAN;CLL;UCEC;KIRC;LUAD;PRAD	D, Mis, N, F, S	TSG	CG
+ATP1A1	---	Mis, O	---	---
+ATP2B3	---	O	---	---
+ATP5B	PANCAN	---	---	CG
+ATR	---	F	---	CG
+ATRIP	---	---	---	CG
+ATRX	---	Mis, F, N	TSG	CG
+AURKA	---	---	---	CG
+AURKB	---	---	---	CG
+AXIN1	---	D, Mis, N, F, S	TSG	CG
+AXIN2	PANCAN;CRC	Mis, F, N	---	CG
+AXL	---	---	---	CG
+AZGP1	PANCAN;GBM	---	---	CG
+B2M	PANCAN;CRC;DLBCL;HNSC	---	TSG	CG
+B4GALT3	---	---	---	CG
+BACH1	---	---	---	CG
+BAK1	---	---	---	CG
+BAP1	PANCAN;KIRC	N, Mis, F, S, O	TSG	CG
+BARD1	---	---	---	CG
+BCL10	---	T	---	---
+BCL11A	---	T	---	---
+BCL11B	---	T	---	---
+BCL2	---	T	Oncogene	CG
+BCL2L11	---	---	---	CG
+BCL2L2	---	---	---	CG
+BCL3	---	T	---	---
+BCL5	---	T	---	---
+BCL6	---	T, Mis	---	CG
+BCL7A	---	T	---	---
+BCL9	---	T	---	---
+BCLAF1	PANCAN;BLCA;CRC;MEL	---	---	CG
+BCOR	PANCAN;CRC;UCEC;GBM	F, N, S, T	TSG	CG
+BCORL1	---	---	---	CG
+BCR	---	T	---	CG
+BHMT2	PANCAN	---	---	---
+BIRC3	---	D, F, N, T, Mis	---	---
+BLM	---	Mis, N, F	---	CG
+BMPR1A	---	Mis, N, F	---	CG
+BRAF	PANCAN;CRC;DLBCL;GBM;LUAD;MEL;MM	Mis, T, O	Oncogene	CG
+BRCA1	PANCAN;KIRC;OV	D, Mis, N, F, S	TSG	CG
+BRCA2	---	D, Mis, N, F, S	TSG	CG
+BRD3	---	T	---	---
+BRD4	---	T	---	---
+BRE	PANCAN	---	---	CG
+BRIP1	---	F, N, Mis	---	CG
+BRWD3	---	---	---	CG
+BTG1	---	T	---	CG
+BTK	---	---	---	CG
+BUB1B	---	Mis, N, F, S	---	CG
+C11orf30	---	---	---	CG
+C12orf9	---	T	---	---
+C15orf65	---	T	---	---
+C2orf44	---	T	---	---
+C3orf70	PANCAN;BLCA	---	---	---
+CACNA1D	---	Mis	---	---
+CALR	---	F, Mis	---	---
+CAMTA1	---	T	---	---
+CANT1	---	T	---	---
+CAP2	PANCAN;UCEC	---	---	CG
+CARD11	PANCAN;DLBCL	Mis	Oncogene	CG
+CARS	---	T	---	---
+CASC5	---	T	---	---
+CASP8	PANCAN;BRCA;CRC;UCEC;HNSC	N, S, F	TSG	CG
+CBFA2T3	---	T	---	---
+CBFB	PANCAN;BRCA	T	---	CG
+CBL	---	T, Mis, S, O	Oncogene	CG
+CBLB	---	Mis, S	---	CG
+CBLC	---	M	---	CG
+CCDC120	PANCAN;KIRC	---	---	---
+CCDC6	PANCAN;UCEC	T	---	---
+CCNB1IP1	---	T	---	---
+CCND1	PANCAN;UCEC	T	---	CG
+CCND2	---	T	---	CG
+CCND3	---	T	---	CG
+CCNE1	---	A	---	CG
+CD1D	PANCAN;GBM	---	---	CG
+CD274	---	T	---	---
+CD70	PANCAN;CRC;DLBCL	---	---	CG
+CD74	---	T	---	---
+CD79A	---	S	---	CG
+CD79B	PANCAN;DLBCL	Mis, S	---	CG
+CDC27	PANCAN;CRC	---	---	CG
+CDC73	---	Mis, N, F	TSG	CG
+CDH1	PANCAN;BRCA	Mis, N, F, S	TSG	CG
+CDH11	---	T	---	---
+CDH12	---	---	---	CG
+CDH18	---	---	---	CG
+CDK12	PANCAN;LUAD;OV	Mis, N, F	---	CG
+CDK4	PANCAN;MEL	Mis	---	CG
+CDK6	---	T	---	CG
+CDK8	---	---	---	CG
+CDKN1A	PANCAN;BLCA	---	---	CG
+CDKN1B	PANCAN;BRCA;CARC;UCEC;LUAD	F	---	CG
+CDKN2A	PANCAN;BLCA;ESO;HNSC;LUAD;LUSC;MEL	D, Mis, N, F, S	TSG	CG
+CDKN2B	---	---	---	CG
+CDKN2C	---	D	---	CG
+CDKN2a(p14)	---	D, S	---	---
+CDX2	---	T	---	---
+CEBPA	PANCAN;LAML	Mis, N, F	TSG	CG
+CENPL	---	---	---	CG
+CEP76	PANCAN	---	---	CG
+CEP89	---	T	---	---
+CERS2	---	---	---	CG
+CHCHD7	---	T	---	---
+CHD4	PANCAN;UCEC	---	---	CG
+CHD8	PANCAN;GBM	---	---	CG
+CHEK1	---	---	---	CG
+CHEK2	---	F	---	CG
+CHIC2	---	T	---	---
+CHN1	---	T	---	---
+CHUK	---	---	---	CG
+CIC	---	Mis, F, S,T	TSG	CG
+CIITA	---	T	---	---
+CLIP1	---	T	---	---
+CLP1	---	T	---	---
+CLTC	---	T	---	---
+CLTCL1	---	T	---	---
+CNBD1	PANCAN;CRC	---	---	CG
+CNBP	---	T	---	---
+CNKSR1	PANCAN	---	---	CG
+CNOT3	---	Mis, N, F	---	---
+CNTRL	---	T	---	---
+COL1A1	---	T	---	---
+COL2A1	---	F, Mis, N, T	---	---
+COL5A1	PANCAN;UCEC;ESO;PRAD	---	---	---
+COL5A3	PANCAN;KIRC	---	---	---
+COL7A1	---	---	---	CG
+COMT	---	---	---	CG
+COX6C	---	T	---	---
+CRBN	---	---	---	CG
+CREB1	---	T	---	---
+CREB3L1	---	T	---	---
+CREB3L2	---	T	---	---
+CREBBP	PANCAN;BLCA;DLBCL;OV	T, N, F, Mis, O	TSG	CG
+CRIPAK	---	---	---	CG
+CRKL	---	---	---	CG
+CRLF2	---	Mis, T	Oncogene	CG
+CRTC1	---	T	---	---
+CRTC3	---	T	---	---
+CSF1R	---	---	Oncogene	CG
+CSF3R	---	N, Mis, S, O	---	---
+CTCF	PANCAN;BRCA;UCEC;HNSC	---	---	CG
+CTNNA1	---	---	---	CG
+CTNNB1	PANCAN;CRC;UCEC;LUAD;MED;MEL	Mis, O, T	Oncogene	CG
+CUL4A	---	---	---	CG
+CUL4B	PANCAN;BRCA	---	---	CG
+CUX1	PANCAN;UCEC	N,F,S,Mis,O,T	---	CG
+CYLD	---	Mis, N, F, S	TSG	CG
+CYP17A1	---	---	---	CG
+CYP1B1	---	---	---	CG
+CYP2C19	---	---	---	CG
+CYP2C8	---	---	---	CG
+CYP2D6	---	---	---	CG
+CYP3A4	---	---	---	CG
+CYP3A5	---	---	---	CG
+DAXX	---	Mis, F, N	TSG	CG
+DCAF6	---	---	---	CG
+DCTN1	---	T	---	---
+DDB2	---	Mis, N	---	CG
+DDIT3	---	T	---	---
+DDR1	---	---	---	CG
+DDR2	---	---	---	CG
+DDX10	---	T	---	---
+DDX11	---	---	---	CG
+DDX3X	PANCAN;CLL;MED	---	---	CG
+DDX5	PANCAN;BLCA;GBM	T	---	CG
+DDX6	---	T	---	---
+DEK	---	T	---	---
+DIAPH1	PANCAN;UCEC	---	---	CG
+DICER1	---	Mis, F, N	---	CG
+DIDO1	---	---	---	CG
+DIS3	PANCAN;MM	---	---	CG
+DIS3L2	---	---	---	CG
+DKC1	---	---	---	CG
+DLC1	---	---	---	CG
+DNAH12	PANCAN	---	---	---
+DNER	PANCAN;UCEC	---	---	CG
+DNM2	---	F, N, S, Mis, O	---	---
+DNMT1	---	---	Oncogene	CG
+DNMT3A	PANCAN;LAML	Mis, F, N, S	Oncogene	CG
+DOCK8	---	---	---	CG
+DOT1L	---	---	---	CG
+DPYD	---	---	---	CG
+DUX4L1	---	T	---	---
+EBF1	---	T	---	---
+ECSCR	---	---	---	CG
+ECT2L	---	N, S, Mis	---	---
+EGFR	PANCAN;GBM;KIRC;LUAD;LUSC	A, O, Mis	Oncogene	CG
+EGR3	---	---	---	CG
+EIF2S2	PANCAN;UCEC	---	---	CG
+EIF3A	---	---	---	CG
+EIF3E	---	T	---	---
+EIF4A2	---	T	---	CG
+ELANE	---	---	---	CG
+ELF3	PANCAN;BLCA;CRC	---	---	CG
+ELF4	---	T	---	---
+ELK4	---	T	---	---
+ELL	---	T	---	---
+ELN	---	T	---	---
+EME1	---	---	---	CG
+EME2	---	---	---	CG
+EML4	---	T	---	CG
+EP300	PANCAN;BRCA;UCEC;HNSC;LUSC	T,  N, F, Mis, O	TSG	CG
+EPHA2	PANCAN;BLCA;HNSC	---	---	CG
+EPHA3	---	---	---	CG
+EPHA5	---	---	---	CG
+EPHB1	---	---	---	CG
+EPHB2	---	---	---	CG
+EPHB6	---	---	---	CG
+EPPK1	---	---	---	CG
+EPS15	---	T	---	---
+ERBB2	PANCAN;BRCA;CRC;UCEC;ESO;LUAD;OV	A, Mis, O	Oncogene	CG
+ERBB3	PANCAN;BLCA;BRCA;CRC;UCEC	Mis, N	---	CG
+ERBB4	---	---	---	CG
+ERC1	---	T	---	---
+ERCC1	---	---	---	CG
+ERCC2	PANCAN;BLCA	Mis, N, F, S	---	CG
+ERCC3	---	Mis, S	---	CG
+ERCC4	---	Mis, N, F	---	CG
+ERCC5	---	Mis, N, F	---	CG
+ERG	---	T	---	CG
+ESR1	---	Mis	---	CG
+ESR2	---	---	---	CG
+ETNK1	---	Mis	---	---
+ETV1	---	T	---	CG
+ETV4	---	T	---	CG
+ETV5	---	T	---	CG
+ETV6	---	T	---	CG
+EWSR1	---	T	---	CG
+EXO1	---	---	---	CG
+EXT1	---	Mis, N, F, S	---	CG
+EXT2	---	Mis, N, F, S	---	CG
+EZH1	PANCAN	---	---	CG
+EZH2	PANCAN;LAML;DLBCL	Mis	Oncogene	CG
+EZR	PANCAN;BLCA;GBM;MM	T	---	CG
+FAH	---	---	---	CG
+FAM123B	---	---	TSG	---
+FAM129B	---	---	---	CG
+FAM131B	---	T	---	---
+FAM166A	PANCAN	---	---	---
+FAM46C	PANCAN;MM	Mis, F, O	---	CG
+FANCA	---	D, Mis, N, F, S	---	CG
+FANCB	---	---	---	CG
+FANCC	---	D, Mis, N, F, S	---	CG
+FANCD2	---	D, Mis, N, F	---	CG
+FANCE	---	N, F, S	---	CG
+FANCF	---	N, F	---	CG
+FANCG	---	Mis, N, F, S	---	CG
+FANCI	---	---	---	CG
+FANCL	---	---	---	CG
+FANCM	---	---	---	CG
+FAS	---	Mis	---	CG
+FAT1	PANCAN;UCEC;HNSC;LUAD;LUSC	---	---	CG
+FAT3	---	---	---	CG
+FBXO11	---	Mis, F, D	---	---
+FBXW7	PANCAN;BLCA;CRC;UCEC;LUSC	Mis, N, D, F	TSG	CG
+FCGR1A	---	---	---	CG
+FCGR2A	---	---	---	CG
+FCGR2B	---	T	---	---
+FCGR3A	---	---	---	CG
+FCRL4	---	T	---	---
+FEV	---	T	---	---
+FGF10	---	---	---	CG
+FGF12	---	---	---	CG
+FGF14	---	---	---	CG
+FGF19	---	---	---	CG
+FGF23	---	---	---	CG
+FGF3	---	---	---	CG
+FGF4	---	---	---	CG
+FGF6	---	---	---	CG
+FGF7	---	---	---	CG
+FGFBP1	PANCAN	---	---	CG
+FGFR1	---	T	---	CG
+FGFR1OP	---	T	---	---
+FGFR2	PANCAN;BRCA;UCEC	Mis	Oncogene	CG
+FGFR3	PANCAN;BLCA;KIRC;LUSC;MM	Mis, T	Oncogene	CG
+FGFR4	---	Mis	---	CG
+FH	---	Mis, N, F	---	CG
+FHIT	---	T	---	---
+FIP1L1	---	T	---	---
+FLCN	---	Mis. N, F	---	CG
+FLG	PANCAN;ESO	---	---	---
+FLI1	---	T	---	---
+FLT1	---	---	---	CG
+FLT3	PANCAN;LAML;UCEC	Mis, O	Oncogene	CG
+FLT4	---		---	CG
+FNBP1	---	T	---	---
+FOXA1	PANCAN;BRCA;PRAD	Mis, F	---	CG
+FOXA2	---	---	---	CG
+FOXL2	---	Mis	Oncogene	CG
+FOXO1	---	T	---	---
+FOXO3	---	T	---	---
+FOXO4	---	T	---	---
+FOXP1	---	T	---	---
+FOXQ1	PANCAN;BLCA	---	---	CG
+FRMD7	PANCAN;MEL	---	---	---
+FSTL3	---	T	---	---
+FUBP1	---	F, N	TSG	CG
+FUS	---	T	---	---
+FZD1	---	---	---	CG
+GAB2	---	---	---	CG
+GAS7	---	T	---	---
+GATA1	---	Mis, F	TSG	CG
+GATA2	---	Mis	Oncogene	CG
+GATA3	PANCAN;BRCA	F, N, S	TSG	CG
+GBA	---	---	---	CG
+GID4	---	---	---	CG
+GJB2	---	---	---	CG
+GMPS	---	T	---	---
+GNA11	---	Mis	Oncogene	CG
+GNA13	PANCAN;DLBCL	---	---	CG
+GNAQ	---	Mis	Oncogene	CG
+GNAS	---	Mis	Oncogene	CG
+GNB1	PANCAN	---	---	CG
+GNPTAB	PANCAN;BRCA;UCEC	---	---	---
+GOLGA5	---	T	---	---
+GOPC	---	O	---	---
+GOT1	PANCAN;CRC	---	---	---
+GPC3	---	T, D, Mis, N, F, S	---	CG
+GPHN	---	T	---	---
+GPR124	---	---	---	CG
+GPS2	PANCAN	---	---	CG
+GRIN2A	---	Mis, N	---	CG
+GRM3	---	---	---	CG
+GSK3B	---	---	---	CG
+GSTP1	---	---	---	CG
+GUCY1A2	---	---	---	CG
+GUSB	PANCAN;KIRC	---	---	---
+H3F3A	---	Mis	Oncogene	CG
+H3F3B	---	Mis	---	---
+H3F3C	---	---	---	CG
+HAUS3	---	---	---	CG
+HDAC4	---	---	---	CG
+HERPUD1	---	T	---	---
+HES1	---	---	---	CG
+HEY1	---	T	---	---
+HFE	---	---	---	CG
+HGF	---	---	---	CG
+HIF1A	---	---	---	CG
+HIP1	---	T	---	---
+HIST1H1C	---	---	---	CG
+HIST1H1E	PANCAN;CLL	---	---	CG
+HIST1H2BD	---	---	---	CG
+HIST1H3B	PANCAN;BRCA;DLBCL	Mis	Oncogene	CG
+HIST1H4E	PANCAN	---	---	CG
+HIST1H4I	---	T	---	---
+HLA-A	PANCAN;DLBCL;HNSC;LUSC	T	---	CG
+HLA-B	PANCAN;HNSC	---	---	CG
+HLA-G	---	---	---	CG
+HLF	---	T	---	---
+HMBS	---	---	---	CG
+HMGA1	---	T	---	---
+HMGA2	---	T	---	---
+HMGN2P46	---	T	---	---
+HNF1A	---	Mis, F	TSG	CG
+HNRNPA2B1	---	T	---	---
+HOOK3	---	T	---	---
+HOXA11	---	T	---	---
+HOXA13	---	T	---	---
+HOXA9	---	T	---	---
+HOXC11	---	T	---	---
+HOXC13	---	T	---	---
+HOXD11	---	T	---	---
+HOXD13	---	T	---	---
+HRAS	PANCAN;BLCA;HNSC;LUSC	Mis	Oncogene	CG
+HSP90AA1	---	T	---	---
+HSP90AB1	PANCAN	T	---	CG
+IDH1	PANCAN;LAML;CLL;GBM;MM	Mis	Oncogene	CG
+IDH2	PANCAN;LAML;CRC	Mis	Oncogene	CG
+IGF1	---	---	---	CG
+IGF1R	---	---	---	CG
+IGF2	---	---	---	CG
+IGH	---	T	---	---
+IGK	---	T	---	---
+IGL	---	T	---	---
+IKBKB	---	Mis	---	---
+IKBKE	---	---	---	CG
+IKZF1	---	D,T	---	CG
+IL2	---	T	---	---
+IL21R	---	T	---	---
+IL6ST	---	O	---	---
+IL7R	PANCAN;ESO	Mis, O	---	CG
+ING1	PANCAN;UCEC	---	---	CG
+INHA	---	---	---	CG
+INHBA	---	---	---	CG
+INPPL1	PANCAN;UCEC	---	---	CG
+INTS12	PANCAN;MM	---	---	---
+IPO7	PANCAN;HNSC	---	---	CG
+IRF4	PANCAN;MM	T	---	CG
+IRF6	PANCAN	---	---	---
+IRS2	---	---	---	CG
+ITGAV	---	---	---	CG
+ITGB7	PANCAN	---	---	---
+ITK	---	T	---	CG
+ITPA	---	---	---	CG
+ITPKB	PANCAN;DLBCL	---	---	---
+JAK1	CLL	Mis	Oncogene	CG
+JAK2	---	T, Mis, O	Oncogene	CG
+JAK3	---	Mis	Oncogene	CG
+JAZF1	---	T	---	---
+JUN	---	A	---	CG
+KAT6A	---	T	---	CG
+KAT6B	---	T	---	---
+KCNJ5	---	Mis	---	---
+KDM5A	---	T	---	CG
+KDM5C	PANCAN;KIRC	N, F, S, Mis	TSG	CG
+KDM6A	PANCAN;LAML;BLCA;HNSC	D, N, F, S	TSG	CG
+KDR	---	Mis	---	CG
+KDSR	---	T	---	---
+KEAP1	PANCAN;LUAD;LUSC	---	---	CG
+KEL	PANCAN;GBM	---	---	---
+KIAA1549	---	T	---	---
+KIAA1598	---	T	---	---
+KIF5B	---	T	---	CG
+KIT	PANCAN;LAML;MEL	Mis, O	Oncogene	CG
+KLF4	---	Mis	Oncogene	CG
+KLF6	---	Mis, N	---	---
+KLHL6	---	---	---	CG
+KLHL8	PANCAN;UCEC	---	---	---
+KLK2	---	T	---	---
+KMT2A	---	T, O	---	CG
+KMT2B	---	---	---	CG
+KMT2C	---	N	---	CG
+KMT2D	---	N, F, Mis	---	CG
+KRAS	PANCAN;LAML;BRCA;CRC;DLBCL;UCEC;ESO;LUAD;MM;OV	Mis	Oncogene	CG
+KTN1	---	T	---	---
+LASP1	---	T	---	---
+LCK	---	T	---	---
+LCP1	---	T	---	---
+LCTL	PANCAN;MEL	---	---	---
+LHFP	---	T	---	---
+LIFR	---	T	---	CG
+LMNA	---	T	---	---
+LMO1	---	T, A	---	CG
+LMO2	---	T	---	---
+LPP	---	T	---	---
+LRIG3	---	T	---	---
+LRP1B	---	---	---	CG
+LRP2	---	---	---	CG
+LRRK2	---	---	---	CG
+LSM14A	---	T	---	---
+LYL1	---	T	---	---
+MAF	---	T	---	---
+MAFB	---	T	---	---
+MALAT1	---	T	---	CG
+MALT1	---	T	---	---
+MAML2	---	T	---	---
+MAN1B1	---	---	---	CG
+MAP2K1	PANCAN;DLBCL;LUAD	Mis	Oncogene	CG
+MAP2K2	---	Mis	---	CG
+MAP2K4	PANCAN;BRCA;CRC	D, Mis, N	---	CG
+MAP3K1	PANCAN;BRCA;GBM	N, F, Mis, O, S	TSG	CG
+MAP3K13	---	F	---	CG
+MAP3K15	---	---	---	CG
+MAP4K1	---	---	---	CG
+MAP4K3	PANCAN;HNSC	---	---	CG
+MAPK1	---	---	---	CG
+MAPK8IP1	---	---	---	CG
+MAX	---	Mis, N, F	---	CG
+MBD1	PANCAN	---	---	CG
+MC1R	---	---	---	CG
+MCL1	---	---	---	CG
+MDM2	---	A	---	CG
+MDM4	---	A	---	CG
+MDS2	---	T	---	---
+MECOM	---	T	---	CG
+MED12	PANCAN;CLL;PRAD	Mis, S	Oncogene	CG
+MED23	PANCAN;BRCA	---	---	CG
+MEF2A	---	---	---	CG
+MEF2B	---	---	---	CG
+MEN1	---	D, Mis, N, F, S	TSG	CG
+MET	PANCAN;LUAD	Mis	Oncogene	CG
+MGA	PANCAN;BLCA;UCEC	---	---	CG
+MICALCL	PANCAN;UCEC	---	---	---
+MIR142	---	---	---	CG
+MITF	---	A	---	CG
+MKL1	---	T	---	---
+MLF1	---	T	---	---
+MLH1	---	D, Mis, N, F, S	TSG	CG
+MLL	PANCAN;BLCA;BRCA	---	---	---
+MLL2	PANCAN;BLCA;DLBCL;HNSC;LUSC	---	TSG	---
+MLL3	PANCAN;BLCA;BRCA;HNSC;LUAD	---	TSG	---
+MLL4	PANCAN;UCEC	---	---	---
+MLLT1	---	T	---	---
+MLLT10	---	T	---	---
+MLLT11	---	T	---	---
+MLLT3	---	T	---	---
+MLLT4	---	T	---	---
+MLLT6	---	T	---	---
+MN1	---	T	---	---
+MNDA	---	---	---	CG
+MNX1	---	T	---	---
+MORC4	PANCAN;UCEC	---	---	CG
+MPL	---	Mis	Oncogene	CG
+MPO	PANCAN;KIRC	---	---	---
+MRE11A	---	---	---	CG
+MSH2	---	D, Mis, N, F, S	TSG	CG
+MSH6	---	Mis, N, F, S	TSG	CG
+MSI2	---	T	---	---
+MSN	---	T	---	---
+MTAP	---	---	---	CG
+MTCP1	---	T	---	---
+MTHFR	---	---	---	CG
+MTOR	PANCAN;UCEC;KIRC	---	---	CG
+MUC1	---	T	---	---
+MUC17	PANCAN;GBM	---	---	---
+MUTYH	---	Mis	---	CG
+MXRA5	PANCAN;LAML;MEL	---	---	CG
+MYB	PANCAN;BRCA	T	---	CG
+MYC	---	A, T	---	CG
+MYCL	---	A	---	CG
+MYCN	PANCAN;UCEC	A	---	CG
+MYD88	PANCAN;CLL;DLBCL	Mis	Oncogene	CG
+MYH11	---	T	---	---
+MYH9	---	T	---	---
+MYLK	---	---	---	CG
+MYO5A	---	T	---	---
+MYOCD	PANCAN;MEL	---	---	---
+MYOD1	---	Mis	---	---
+NAB2	---	T	---	---
+NACA	---	T	---	---
+NAV3	---	---	---	CG
+NBN	---	Mis, N, F	---	CG
+NBPF1	PANCAN;LUAD	---	---	CG
+NCKIPSD	---	T	---	---
+NCOA1	---	T	---	---
+NCOA2	---	T	---	---
+NCOA4	---	T	---	---
+NCOR1	PANCAN;BRCA;HNSC;MEL	Mis, F, N, O	TSG	CG
+NDRG1	---	T	---	---
+NEIL1	---	---	---	CG
+NF1	PANCAN;GBM;LUAD;LUSC;OV	D, Mis, N, F, S, O	TSG	CG
+NF2	---	D, Mis, N, F, S, O	TSG	CG
+NFATC2	---	T	---	---
+NFE2L2	PANCAN;BLCA;UCEC;HNSC;LUSC	Mis	Oncogene	CG
+NFIB	---	T	---	---
+NFKB2	---	T	---	---
+NFKBIA	---	---	---	CG
+NFKBIE	---	F	---	---
+NIN	---	T	---	---
+NKX2-1	---	A	---	CG
+NONO	---	T	---	---
+NOTCH1	PANCAN;DLBCL;HNSC;LUSC	T, Mis, O	TSG	CG
+NOTCH2	---	N, F, Mis	TSG	CG
+NOTCH3	---	---	---	CG
+NOTCH4	---	---	---	CG
+NPM1	PANCAN;LAML	T, F	TSG	CG
+NQO1	---	---	---	CG
+NR4A3	---	T	---	---
+NRAS	PANCAN;LAML;CLL;CRC;UCEC;LUAD;MEL;MM;OV	Mis	Oncogene	CG
+NRG1	---	T	---	---
+NRP2	---	---	---	CG
+NSD1	PANCAN;HNSC;LUSC	T	---	CG
+NT5C2	---	Mis	---	---
+NTN4	PANCAN;CRC	---	---	CG
+NTRK1	---	T	---	CG
+NTRK2	---	---	---	CG
+NTRK3	---	T	---	CG
+NUMA1	---	T	---	---
+NUP210L	PANCAN;GBM	---	---	---
+NUP214	---	T	---	---
+NUP93	---	---	---	CG
+NUP98	---	T	---	---
+NUTM1	---	T	---	---
+NUTM2A	---	T	---	---
+NUTM2B	---	T	---	---
+ODAM	PANCAN	---	---	CG
+OLIG2	---	T	---	---
+OMA1	PANCAN	---	---	---
+OMD	---	T	---	---
+OR4A16	PANCAN;MEL	---	---	---
+OR52N1	PANCAN;MEL	---	---	---
+OTUD7A	PANCAN;HNSC	---	---	CG
+P2RY8	---	T	---	---
+PAFAH1B2	---	T	---	---
+PAK3	---	---	---	CG
+PAK7	---	---	---	CG
+PALB2	---	F, N, Mis	---	CG
+PAPD5	PANCAN;LAML	---	---	CG
+PARP1	---	---	---	CG
+PARP2	---	---	---	CG
+PARP3	---	---	---	CG
+PARP4	---	---	---	CG
+PAX3	---	T	---	---
+PAX5	---	T, Mis, D, F, S	TSG	CG
+PAX7	---	T	---	---
+PAX8	---	T	---	---
+PBRM1	PANCAN;UCEC;HNSC;KIRC	Mis, N, F, S, D, O	TSG	CG
+PBX1	---	T	---	---
+PCBP1	PANCAN;CRC	---	---	CG
+PCDH10	---	---	---	CG
+PCM1	---	T	---	---
+PCSK7	---	T	---	---
+PDAP1	PANCAN	---	---	CG
+PDCD1LG2	---	T	---	---
+PDCD2L	PANCAN	---	---	CG
+PDE4DIP	---	T	---	---
+PDGFB	---	T	---	---
+PDGFRA	---	Mis, O, T	Oncogene	CG
+PDGFRB	---	T	---	CG
+PDK1	---	---	---	CG
+PDSS2	PANCAN;LAML	---	---	CG
+PER1	---	T	---	---
+PHF6	PANCAN;LAML;BLCA	F, N, S, Mis	TSG	CG
+PHOX2B	---	Mis, F	---	CG
+PICALM	---	T	---	---
+PIK3C2G	---	---	---	CG
+PIK3C3	---	---	---	CG
+PIK3CA	PANCAN;BLCA;BRCA;CRC;UCEC;ESO;GBM;HNSC;KIRC;LUAD;LUSC;MEL	Mis	Oncogene	CG
+PIK3CG	---	---	---	CG
+PIK3R1	PANCAN;BRCA;UCEC;ESO;GBM	Mis, F, O	TSG	CG
+PIK3R2	---	---	---	CG
+PIM1	---	T	---	---
+PLAG1	---	T	---	---
+PLCG1	---	Mis	---	---
+PLCG2	PANCAN	---	---	CG
+PML	---	T	---	CG
+PMS1	---	Mis, N	---	---
+PMS2	---	Mis, N, F	---	CG
+PMS2CL	---	---	---	CG
+PNRC1	---	---	---	CG
+POLD1	---	---	---	CG
+POLE	PANCAN;UCEC	Mis	---	CG
+POLH	---	---	---	CG
+POLI	---	---	---	CG
+POLK	---	---	---	CG
+POLQ	---	---	---	CG
+PORCN	---	---	---	CG
+POT1	---	Mis, N	---	---
+POU2AF1	PANCAN;DLBCL	T	---	CG
+POU2F2	PANCAN;DLBCL	---	---	CG
+POU5F1	---	T	---	---
+PPARG	---	T	---	---
+PPFIBP1	---	T	---	---
+PPM1D	PANCAN;UCEC	---	---	CG
+PPP2R1A	PANCAN;UCEC	Mis	Oncogene	CG
+PPP6C	PANCAN;MEL	Mis	---	CG
+PRCC	---	T	---	---
+PRDM1	PANCAN;MM	D, N, Mis, F, S	TSG	CG
+PRDM16	---	T	---	---
+PRF1	---	M	---	---
+PRKAR1A	---	T, Mis, N, F, S	---	CG
+PRKDC	---	---	---	CG
+PRLR	---	---	---	CG
+PRPF40B	---	---	---	CG
+PRRX1	---	T	---	---
+PRSS1	---	---	---	CG
+PRSS8	---	---	---	CG
+PSIP1	---	T	---	---
+PTCH1	---	Mis, N, F, S	TSG	CG
+PTEN	PANCAN;BRCA;CRC;DLBCL;UCEC;GBM;HNSC;KIRC;LUSC;MEL	D, Mis, N, F, S	TSG	CG
+PTPN11	PANCAN;LAML;GBM;MM	Mis	Oncogene	CG
+PTPRB	---	N, Mis, S, F	---	---
+PTPRC	---	Mis, N, S	---	CG
+PTPRD	---	---	---	CG
+PTPRK	---	T	---	---
+PWWP2A	---	T	---	---
+QKI	PANCAN;GBM	---	---	CG
+RAB40A	PANCAN;BRCA	---	---	CG
+RABEP1	---	T	---	---
+RAC1	PANCAN;HNSC;MEL	Mis, F	---	CG
+RAD21	PANCAN;LAML	Mis, N, F	---	CG
+RAD50	---	---	---	CG
+RAD51	---	---	---	CG
+RAD51B	---	T	---	CG
+RAD51C	---	---	---	CG
+RAD51D	---	---	---	CG
+RAD52	---	---	---	CG
+RAD54L	---	---	---	CG
+RAF1	---	T	---	CG
+RALGDS	---	T	---	---
+RALY	---	---	---	CG
+RANBP17	---	T	---	---
+RANBP2	---	T	---	---
+RAP1GDS1	---	T	---	---
+RARA	---	T	---	CG
+RASA1	PANCAN;UCEC;HNSC;LUSC	---	---	CG
+RB1	PANCAN;BLCA;BRCA;UCEC;GBM;HNSC;LUAD;LUSC;OV	D, Mis, N, F, S	TSG	CG
+RBM10	PANCAN;CRC;LUAD	---	---	CG
+RBM15	---	T	---	---
+RBMX	---	---	---	CG
+RECQL4	---	N, F, S	---	CG
+REL	---	A	---	CG
+RET	---	T, Mis, N, F	Oncogene	CG
+REV3L	---	---	---	CG
+RHBDF2	---	---	---	CG
+RHEB	PANCAN;KIRC	---	---	CG
+RHOA	PANCAN;BLCA;HNSC	Mis, F, O	---	CG
+RHOH	---	T	---	---
+RICTOR	---	---	---	CG
+RIT1	PANCAN;LUAD	---	---	CG
+RMI1	---	---	---	CG
+RMI2	---	T	---	CG
+RMRP	---	---	---	CG
+RNF213	---	T	---	---
+RNF217-AS1	---	T	---	---
+RNF43	---	Mis, N, F, S	TSG	CG
+ROS1	---	T	---	CG
+RPA1	---	---	---	CG
+RPA2	---	---	---	CG
+RPA4	---	---	---	CG
+RPL10	---	Mis	---	---
+RPL22	---	T	---	CG
+RPL5	PANCAN;GBM	Mis, N, F	---	CG
+RPN1	---	T	---	---
+RPS14	---	---	---	CG
+RPS15	PANCAN;CLL	---	---	CG
+RPS2	PANCAN;CLL	---	---	CG
+RPTOR	---	---	---	CG
+RSBN1L	PANCAN;UCEC	---	---	---
+RSPO2	---	T	---	---
+RSPO3	---	T	---	---
+RUNDC2A	---	T	---	---
+RUNX1	PANCAN;LAML;BRCA	T	TSG	CG
+RUNX1T1	---	T	---	CG
+RUNX3	---	---	---	CG
+RXRA	PANCAN;BLCA;MEL	---	---	CG
+SACS	PANCAN;UCEC;ESO	---	---	---
+SBDS	---	Gene Conversion	---	CG
+SDC4	---	T	---	---
+SDHA	---	---	---	CG
+SDHAF2	---	M	---	CG
+SDHB	---	Mis, N, F	---	CG
+SDHC	---	Mis, N, F	---	CG
+SDHD	---	Mis, N, F, S	---	CG
+SELP	PANCAN;UCEC	---	---	---
+SEPT12	PANCAN	---	---	---
+SEPT5	---	T	---	---
+SEPT6	---	T	---	---
+SEPT9	---	T	---	---
+SERPINA1	---	---	---	CG
+SERPINB13	PANCAN;LUSC	---	---	CG
+SET	---	T	---	---
+SETBP1	---	Mis	Oncogene	CG
+SETD2	PANCAN;BLCA;GBM;KIRC	N, F, S, Mis	TSG	CG
+SETDB1	PANCAN;CLL;ESO	---	---	CG
+SF1	---	---	---	CG
+SF3B1	PANCAN;BRCA;CLL	Mis	Oncogene	CG
+SFPQ	---	T	---	---
+SFRS2	PANCAN;LAML	---	---	---
+SGK1	PANCAN;UCEC	---	---	CG
+SH2B3	---	Mis, F, N	---	CG
+SH2D1A	---	---	---	CG
+SH3GL1	---	T	---	---
+SIN3A	---	---	---	CG
+SIRPA	---	---	---	CG
+SIRT4	PANCAN;CRC	---	---	CG
+SLC19A1	---	---	---	CG
+SLC1A3	PANCAN;UCEC	---	---	---
+SLC22A2	---	---	---	CG
+SLC25A13	---	---	---	CG
+SLC26A3	PANCAN;GBM	---	---	---
+SLC34A2	---	T	---	---
+SLC44A3	PANCAN;UCEC	---	---	---
+SLC45A3	---	T	---	---
+SLC4A5	PANCAN;LUAD	---	---	---
+SLCO1B3	---	---	---	CG
+SLX4	---	---	---	CG
+SMAD2	PANCAN;CRC	---	TSG	CG
+SMAD3	---	---	---	CG
+SMAD4	PANCAN;CRC;ESO;HNSC;LUAD	D, Mis, N, F	TSG	CG
+SMARCA4	PANCAN;ESO;LUAD	F, N, Mis, S	TSG	CG
+SMARCB1	PANCAN;ESO;OV;RHAB	D, N, F, S	TSG	CG
+SMARCD1	---	N	---	CG
+SMARCE1	---	F, Mis, N	---	CG
+SMC1A	PANCAN;LAML;GBM	---	---	CG
+SMC3	PANCAN;LAML	---	---	CG
+SMO	---	Mis	Oncogene	CG
+SND1	---	T	---	---
+SNX25	PANCAN;BLCA	---	---	CG
+SOCS1	---	F, O	TSG	CG
+SOD2	---	---	---	CG
+SOS1	PANCAN;UCEC	---	---	CG
+SOX10	---	---	---	CG
+SOX17	PANCAN;UCEC	---	---	CG
+SOX2	---	A	---	CG
+SOX9	---	---	TSG	CG
+SPECC1	---	T	---	---
+SPEN	PANCAN;BRCA;CLL	F, Mis, N	---	CG
+SPOP	PANCAN;UCEC;PRAD	Mis	Oncogene	CG
+SPRY4	---	---	---	CG
+SRC	---	---	---	CG
+SRGAP3	---	T	---	---
+SRSF2	---	Mis	Oncogene	CG
+SRSF3	---	T	---	---
+SRY	---	---	---	CG
+SS18	---	T	---	---
+SS18L1	---	T	---	---
+SSX1	---	T	---	---
+SSX2	---	T	---	---
+SSX4	---	T	---	---
+STAG2	PANCAN;LAML;BLCA;BRCA;GBM	Mis, N, F, S	TSG	CG
+STAT3	---	Mis,O	---	CG
+STAT4	---	---	---	CG
+STAT5B	---	Mis, O	---	---
+STAT6	---	T	---	---
+STIL	---	T	---	---
+STK11	PANCAN;LUAD;LUSC	D, Mis, N, F, S	TSG	CG
+STK19	PANCAN;MEL	---	---	CG
+STK38	---	---	---	CG
+STRN	---	T	---	---
+STX2	PANCAN;LUAD	---	---	CG
+SUFU	---	D, F, S	---	CG
+SULT1A1	---	---	---	CG
+SUZ12	---	T	---	CG
+SYK	---	T	---	CG
+SZRD1	---	---	---	CG
+TAF1	---	---	---	CG
+TAF15	---	T	---	---
+TAL1	---	T	---	---
+TAL2	---	T	---	---
+TAP1	PANCAN;UCEC	---	---	---
+TBC1D12	PANCAN;BLCA	---	---	CG
+TBL1XR1	PANCAN;BRCA;UCEC	F, Mis	---	CG
+TBX3	PANCAN;BRCA	F	---	CG
+TCEA1	---	T	---	---
+TCEB1	PANCAN;KIRC	---	---	CG
+TCF12	---	T	---	---
+TCF3	---	T	---	---
+TCF7L2	PANCAN;CRC	T	---	CG
+TCL1A	---	T	---	---
+TCL6	---	T	---	---
+TCP11L2	PANCAN;UCEC	---	---	---
+TDRD10	PANCAN;UCEC	---	---	---
+TELO2	---	---	---	CG
+TERT	---	Promoter Mis	---	CG
+TET1	---	T	---	---
+TET2	PANCAN;LAML	Mis, N, F	TSG	CG
+TFE3	---	T	---	---
+TFEB	---	T	---	---
+TFG	---	T	---	CG
+TFPT	---	T	---	---
+TFRC	---	T	---	---
+TGFBR1	---	---	---	CG
+TGFBR2	PANCAN;BLCA;HNSC	---	---	CG
+THRAP3	---	T	---	---
+TIMM17A	PANCAN	---	---	CG
+TIPARP	---	---	---	CG
+TLK2	---	---	---	CG
+TLR4	---	---	---	CG
+TLX1	---	T	---	---
+TLX3	---	T	---	---
+TMEM127	---	---	---	CG
+TMPRSS2	---	T	---	CG
+TNF	PANCAN;DLBCL	---	---	CG
+TNFAIP3	---	D, N, F	TSG	CG
+TNFRSF14	PANCAN;DLBCL	Mis, N, F	---	CG
+TNFRSF17	---	T	---	---
+TOP1	---	T	---	CG
+TOP3A	---	---	---	CG
+TOP3B	---	---	---	CG
+TP53	PANCAN;LAML;BLCA;BRCA;CLL;CRC;DLBCL;UCEC;ESO;GBM;HNSC;KIRC;LUAD;LUSC;MED;MEL;MM;OV;PRAD	Mis, N, F, T	TSG	CG
+TP53BP1	PANCAN;UCEC	---	---	CG
+TPM3	---	T	---	---
+TPM4	---	T	---	---
+TPMT	---	---	---	CG
+TPR	---	T	---	---
+TPX2	PANCAN;UCEC	---	---	CG
+TRA	---	T	---	---
+TRAF3	PANCAN;CRC;MM	---	---	CG
+TRAF7	---	Mis	TSG	CG
+TRB	---	T	---	---
+TRD	---	T	---	---
+TRIM23	PANCAN;CRC	---	---	---
+TRIM24	---	T	---	---
+TRIM27	---	T	---	---
+TRIM33	---	T	---	---
+TRIM37	---	---	---	CG
+TRIP11	---	T	---	---
+TRRAP	---	Mis	---	CG
+TSC1	PANCAN;BLCA	D, Mis, N, F, S	TSG	CG
+TSC2	---	D, Mis, N, F, S	---	CG
+TSHR	---	Mis	Oncogene	CG
+TSHZ2	---	---	---	CG
+TSHZ3	---	---	---	CG
+TTL	---	T	---	---
+TTLL9	PANCAN;UCEC	---	---	---
+TXNDC8	PANCAN;UCEC	---	---	---
+TYMS	---	---	---	CG
+TYR	---	---	---	CG
+U2AF1	PANCAN;LAML;LUAD	Mis	Oncogene	CG
+U2AF2	---	---	---	CG
+UBR5	---	F, N, Mis, S	---	---
+UGT1A1	---	---	---	CG
+UMPS	---	---	---	CG
+UROD	---	---	---	CG
+USP1	---	---	---	CG
+USP6	---	T	---	---
+USP9X	---	---	---	CG
+VANGL2	---	---	---	CG
+VEZF1	---	---	---	CG
+VHL	PANCAN;KIRC	D, Mis, N, F, S	TSG	CG
+VTI1A	---	T	---	---
+WAC	---	---	---	CG
+WAS	---	Mis, N, F, S	---	CG
+WASF3	PANCAN;MEL	---	---	CG
+WDR48	---	---	---	CG
+WHSC1	---	T	---	---
+WHSC1L1	---	T	---	---
+WIF1	---	T	---	---
+WISP3	---	---	---	CG
+WNK1	---	---	---	CG
+WRN	---	Mis, N, F, S	---	CG
+WT1	PANCAN;LAML	D, Mis, N, F, S	TSG	CG
+WWTR1	---	T	---	---
+XIRP2	PANCAN;MEL	---	---	---
+XPA	---	Mis, N, F, S	---	CG
+XPC	---	Mis, N, F, S	---	CG
+XPO1	PANCAN;CLL	Mis	---	CG
+XRCC2	---	---	---	CG
+XRCC3	---	---	---	CG
+YWHAE	---	T	---	---
+ZBTB16	---	T	---	---
+ZCCHC8	---	T	---	---
+ZFHX3	PANCAN;UCEC	---	---	CG
+ZNF180	PANCAN	---	---	---
+ZNF198	---	T	---	---
+ZNF217	---	---	---	CG
+ZNF278	---	T	---	---
+ZNF331	---	T	---	---
+ZNF384	---	T	---	---
+ZNF471	PANCAN;DLBCL;UCEC	---	---	---
+ZNF483	PANCAN	---	---	---
+ZNF521	---	T	---	---
+ZNF620	PANCAN;UCEC	---	---	---
+ZNF703	---	---	---	CG
+ZNF750	PANCAN;HNSC;MEL	---	---	---
+ZRANB3	PANCAN;UCEC	---	---	CG
+ZRSR2	---	F, S, Mis	---	CG
