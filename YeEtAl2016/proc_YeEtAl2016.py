@@ -12,7 +12,7 @@ gene2type = {}
 for row in range(2, main_sheet.nrows):
     gene = main_sheet.cell(row, 0).value
 
-    print >> hout, gene
+    print >> hout, gene + '\t' + "CG"
 
 
 hout.close()
