@@ -30,6 +30,7 @@ genes = list(set(gene2lawrence.keys() + gene2cgc.keys() + gene2vogelstein.keys()
 
 
 hout = open("CancerGeneSummary/CancerGeneSummary.proc.txt", 'w')
+print >> hout, "Gene" + '\t' + "LawrenceEtAl2014" + '\t' + "CancerGeneCensus" + '\t' + "VogelsteinEtAl2013" + '\t' + "YeEtAl2016"
 for gene in sorted(genes):
     lawrence = gene2lawrence[gene] if gene in gene2lawrence else "---"
     cgc = gene2cgc[gene] if gene in gene2cgc else "---"
