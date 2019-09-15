@@ -28,7 +28,7 @@ with open("YeEtAl2016/YeEtAl2016.proc.txt", 'r') as hin:
         gene2ye[F[0]] = F[1]
 
  
-genes = list(set(gene2lawrence.keys() + gene2cgc.keys() + gene2vogelstein.keys() + gene2ye.keys()))
+genes = list(set(list(gene2lawrence) + list(gene2cgc) + list(gene2vogelstein) + list(gene2ye)))
 
 
 hout = open("CancerGeneSummary/CancerGeneSummary.proc.txt", 'w')
