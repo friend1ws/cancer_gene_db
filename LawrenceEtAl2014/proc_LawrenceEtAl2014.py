@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 
+from __future__ import print_function
 import xlrd, re
 
 hOUT = open("LawrenceEtAl2014/LawrenceEtAl2014.proc.txt", "w")
@@ -38,6 +39,6 @@ for row in range(1, main_sheet.nrows):
 
 
 for gene in sorted(gene2type):
-    print >> hOUT, gene + '\t' + gene2type[gene]
+    print(gene + '\t' + gene2type[gene], file = hOUT)
 
 hOUT.close()

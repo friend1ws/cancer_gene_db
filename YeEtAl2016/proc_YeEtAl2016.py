@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 
+from __future__ import print_function
 import xlrd, re
 
 hout = open("YeEtAl2016/YeEtAl2016.proc.txt", "w")
@@ -12,7 +13,7 @@ gene2type = {}
 for row in range(2, main_sheet.nrows):
     gene = main_sheet.cell(row, 0).value
 
-    print >> hout, gene + '\t' + "CG"
+    print(gene + '\t' + "CG", file = hout)
 
 
 hout.close()

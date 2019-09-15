@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 
+from __future__ import print_function
+
 gene2lawrence = {}
 with open("LawrenceEtAl2014/LawrenceEtAl2014.proc.txt", 'r') as hin:
     for line in hin:
@@ -30,13 +32,13 @@ genes = list(set(gene2lawrence.keys() + gene2cgc.keys() + gene2vogelstein.keys()
 
 
 hout = open("CancerGeneSummary/CancerGeneSummary.proc.txt", 'w')
-print >> hout, "Gene" + '\t' + "LawrenceEtAl2014" + '\t' + "CancerGeneCensus" + '\t' + "VogelsteinEtAl2013" + '\t' + "YeEtAl2016"
+print("Gene" + '\t' + "LawrenceEtAl2014" + '\t' + "CancerGeneCensus" + '\t' + "VogelsteinEtAl2013" + '\t' + "YeEtAl2016", file = hout)
 for gene in sorted(genes):
     lawrence = gene2lawrence[gene] if gene in gene2lawrence else "---"
     cgc = gene2cgc[gene] if gene in gene2cgc else "---"
     vogelstein = gene2vogelstein[gene] if gene in gene2vogelstein else "---"
     ye = gene2ye[gene] if gene in gene2ye else "---"
-    print >> hout, gene + '\t' + lawrence + '\t' + cgc + '\t' + vogelstein + '\t' + ye
+    print(gene + '\t' + lawrence + '\t' + cgc + '\t' + vogelstein + '\t' + ye, file = hout)
 
 
 hout.close()

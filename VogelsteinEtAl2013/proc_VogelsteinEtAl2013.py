@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 
+from __future__ import print_function
 import xlrd, re
 
 hout = open("VogelsteinEtAl2013/VogelsteinEtAl2013.proc.txt", "w")
@@ -14,7 +15,7 @@ for row in range(2, main_sheet.nrows):
     if gene.startswith("*"): continue
 
     classification = main_sheet.cell(row, 5).value
-    print >> hout, gene + '\t' + classification
+    print(gene + '\t' + classification, file = hout)
 
 
 hout.close()

@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 
+from __future__ import print_function
 import sys, gzip
 
 sym2exist = {}
@@ -23,11 +24,11 @@ with open("Kinase_com_manual.txt", 'r') as hin:
             if gene in sym2exist: sym = gene
 
         if sym == "":
-            print >> sys.stderr, "No corresponding gene symbol in RefGenes: " + '\t'.join(F)
+            print("No corresponding gene symbol in RefGenes: " + '\t'.join(F), file = sys.stderr)
             continue
 
 
-        print >> hout, sym + '\t' + ':'.join([x.strip( ' ') for x in F[2].split(":")])
+        print(sym + '\t' + ':'.join([x.strip( ' ') for x in F[2].split(":")]), file = hout)
 
  
 hout.close()

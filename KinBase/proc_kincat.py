@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 
+from __future__ import print_function
 """
 import gzip
 
@@ -15,5 +16,5 @@ with open("Kincat_Hsap.08.02.txt", 'r') as hin:
         if F[0] == "Name": continue
         if len(F) < 23: continue
         if F[23] != "":
-            print F[23] + '\t' + F[1]
+            print(F[23] + '\t' + F[1])
  
