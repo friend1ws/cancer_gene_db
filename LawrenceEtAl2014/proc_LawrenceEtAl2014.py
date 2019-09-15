@@ -5,13 +5,14 @@ import xlrd, re
 
 hOUT = open("LawrenceEtAl2014/LawrenceEtAl2014.proc.txt", "w")
 
-book = xlrd.open_workbook("LawrenceEtAl2014/nature12912-s3.xlsx")
+book = xlrd.open_workbook("LawrenceEtAl2014/nature12912-s3.xlsx", 'rt')
 
 main_sheet = book.sheet_by_index(0)
 
 gene2type = {}
 for row in range(2, main_sheet.nrows):
-    gene = main_sheet.cell(row, 0).value.encode('ascii', 'ignore')
+    # gene = main_sheet.cell(row, 0).value.encode('utf-8', 'ignore')
+    gene = str(main_sheet.cell(row, 0).value)
     if gene != "":
         if gene not in gene2type:
             gene2type[gene] = "PANCAN"
@@ -19,14 +20,17 @@ for row in range(2, main_sheet.nrows):
             gene2type[gene] = gene2type[gene] + ';' + "PANCAN"
 
 
-book = xlrd.open_workbook("LawrenceEtAl2014/nature12912-s4.xlsx")
+book = xlrd.open_workbook("LawrenceEtAl2014/nature12912-s4.xlsx", 'rt')
 main_sheet = book.sheet_by_index(0)
 
 for row in range(1, main_sheet.nrows):
 
-    type = main_sheet.cell(row, 1).value.encode('ascii', 'ignore')
-    genes1 = main_sheet.cell(row, 3).value.encode('ascii', 'ignore').split(',')
-    genes2 = main_sheet.cell(row, 4).value.encode('ascii', 'ignore').split(',')
+    # type = main_sheet.cell(row, 1).value.encode('utf-8', 'ignore')
+    # genes1 = main_sheet.cell(row, 3).value.encode('utf-8', 'ignore').split(',')
+    # genes2 = main_sheet.cell(row, 4).value.encode('utf-8', 'ignore').split(',')
+    type = str(main_sheet.cell(row, 1).value)
+    genes1 = str(main_sheet.cell(row, 3).value).split(',')
+    genes2 = str(main_sheet.cell(row, 4).value).split(',')
 
     for gene in genes1 + genes2:
         if gene == "": continue
